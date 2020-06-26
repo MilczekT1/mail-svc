@@ -1,0 +1,9 @@
+{
+  "Account": {
+    "id": 2,
+    "firstName": "kon",
+    "lastName": "bon",
+    "email": "test@mail.com",
+    "phoneNumber": "123123123"
+  }
+}

@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title th:text="${recipient}">Title</title>
+</head>
+<body>
+
+<p>Dear <span th:utext="${recipient}"></span>,</p>
+
+<p>Your account has been successfully created.</p>
+<p>Please, activate your account by clicking on the following link</p>
+<a th:href="${activationLink}">Click here!</a> <br/>
+Best Regards, <br/>
+Budget Team <br/>
+<a>foxkingdom.budget@gmail.com</a>
+
+</body>
+</html>

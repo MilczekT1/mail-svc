@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title th:text="${recipient}">Title</title>
+</head>
+<body>
+
+<p>Dear <span th:utext="${recipient}"></span>,</p>
+
+<p>
+    <span th:utext="${ownersFirstName}"></span>
+    <span th:utext="${ownersLastName}"></span>, with email adress
+    <span th:utext="${ownersEmail}"></span>
+    has invited You to join his family <span th:utext="${familyTitle}"></span>
+</p>
+<a th:href="${invitationLink}">Click here to accept the invitation!</a> <br/>
+
+Best Regards, <br/>
+Budget Team <br/>
+<a>foxkingdom.budget@gmail.com</a>
+</body>
+</html>

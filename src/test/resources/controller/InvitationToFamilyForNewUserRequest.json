@@ -1,0 +1,22 @@
+{
+  "Inviter": {
+    "id": 12,
+    "familyId": 10,
+    "firstName": "kon",
+    "lastName": "bon",
+    "email": "temp@mail.com",
+    "phoneNumber": "123321123",
+    "role": "USER",
+    "enabled": true
+  },
+  "Family": {
+    "id": 10,
+    "ownerId": 12,
+    "budgetId": null,
+    "title": "test_title",
+    "maxMembers": 5,
+    "emailNotificationsEnabled": false,
+    "phoneNotificationsEnabled": true
+  },
+  "NewMemberEmail": "test@mail.com"
+}

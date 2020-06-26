@@ -1,0 +1,13 @@
+budget:
+  chassis:
+    http-logging:
+      enabled: true
+  baseUrl:
+    gateway: "https://konradboniecki.com.pl"
+spring:
+  jpa:
+    open-in-view: false
+  security:
+    user:
+      name: "testUserName"
+      password: "testUserPassword"
